@@ -1,0 +1,3 @@
+dispatch:
+  - url: "p33t.co/*"
+  service: default

@@ -1,0 +1,10 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /
+  static_files: dist/p33t/index.html
+  upload: dist/p33t/index.html
+- url: /
+  static_dir: dist/p33t
